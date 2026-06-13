@@ -35,7 +35,7 @@ A premium, lightweight, highly interactive "About Me" and portfolio page designe
 
 3. **Start the local development server:**
    ```bash
-   go run local/main.go
+   go run main.go
    ```
 
 4. **Open in browser:**
