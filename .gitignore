@@ -1,0 +1,14 @@
+# Compiled binaries
+main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Vercel
+.vercel
+
+# System Files
+.DS_Store
+Thumbs.db

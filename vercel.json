@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/about",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/experience",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/projects",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/contact",
+      "destination": "/api/index"
+    }
+  ]
+}

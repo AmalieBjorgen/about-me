@@ -1,0 +1,115 @@
+{
+  "profile": {
+    "name": "Amalie Bjørgen",
+    "title": "Software Engineer & Architect",
+    "avatarUrl": "https://github.com/amaliebjorgen.png",
+    "bio": "Passionate software engineer focused on building elegant, performant, and reliable web applications. Specialized in backend architectures, systems engineering, and modern minimalist web technologies. Believer in clean code, robust testing, and simple developer-friendly infrastructure.",
+    "location": "Oslo, Norway",
+    "contacts": {
+      "email": "amalie.bjorgen@example.com",
+      "github": "https://github.com/amaliebjorgen",
+      "linkedin": "https://www.linkedin.com/in/amaliebjorgen",
+      "twitter": "https://twitter.com/amaliebjorgen"
+    }
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Go", "TypeScript", "JavaScript", "SQL", "HTML5/CSS3", "Bash"]
+    },
+    {
+      "category": "Backend & Cloud",
+      "items": ["gRPC", "PostgreSQL", "Redis", "Docker", "AWS", "Vercel", "Linux Systems"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": ["Templ", "HTMX", "React", "Next.js", "Gin", "Chi Router"]
+    },
+    {
+      "category": "Developer Tools",
+      "items": ["Git & GitHub", "GitHub Actions (CI/CD)", "Neovim", "Makefiles", "Postman"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechInnovate AS",
+      "role": "Senior Software Engineer",
+      "location": "Oslo, Norway",
+      "startDate": "2024-03",
+      "endDate": "Present",
+      "current": true,
+      "description": [
+        "Architected and developed high-throughput Go microservices handling over 10M daily API requests.",
+        "Refactored legacy monolith into modular services, reducing deployment times by 40% and server costs by 25%.",
+        "Established CI/CD pipelines via GitHub Actions for automated linting, security scanning, and seamless deployments.",
+        "Mentored junior and mid-level developers on Go concurrency patterns and database optimization techniques."
+      ],
+      "tags": ["Go", "PostgreSQL", "Docker", "GitHub Actions", "AWS"]
+    },
+    {
+      "company": "Nordic Systems Solutions",
+      "role": "Software Developer",
+      "location": "Oslo, Norway",
+      "startDate": "2022-01",
+      "endDate": "2024-02",
+      "current": false,
+      "description": [
+        "Built and maintained responsive web applications using TypeScript, React, and Node.js backend systems.",
+        "Designed and implemented RESTful APIs with strict validation schemas and high-performance SQL queries.",
+        "Collaborated with product designers to implement pixel-perfect user interfaces adhering to strict accessibility standards.",
+        "Integrated third-party payment gateways and authentication providers (OAuth2, OpenID)."
+      ],
+      "tags": ["TypeScript", "React", "Node.js", "Express", "PostgreSQL"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Minimalist Go Blog Engine",
+      "description": "A light-weight, self-hosted blog platform built using Go, Templ, and HTMX. Replaces heavy Client-Side Rendered (CSR) javascript frameworks with rapid server-side HTML rendering and minimal DOM-swapping.",
+      "tags": ["Go", "Templ", "HTMX", "SQLite"],
+      "githubUrl": "https://github.com/amaliebjorgen/go-blog",
+      "liveUrl": "https://go-blog-demo.example.com",
+      "featured": true
+    },
+    {
+      "title": "Custom Go HTTP Router",
+      "description": "A trie-based HTTP router for Go with Zero memory allocations during routing. Benchmarked to outperform many standard standard library routers while preserving full context support.",
+      "tags": ["Go", "Algorithms", "Benchmark"],
+      "githubUrl": "https://github.com/amaliebjorgen/trie-router",
+      "liveUrl": "",
+      "featured": true
+    },
+    {
+      "title": "Dotfiles & Dev Environment",
+      "description": "My personal dotfiles for configuring a modern terminal-based dev environment featuring Neovim, Tmux, Alacritty, and custom scripts.",
+      "tags": ["Bash", "Lua", "Neovim", "Linux"],
+      "githubUrl": "https://github.com/amaliebjorgen/dotfiles",
+      "liveUrl": "",
+      "featured": false
+    },
+    {
+      "title": "Real-time Chat Application",
+      "description": "A WebSocket-based group chat client featuring user channels, real-time message persistence, and basic markdown rendering, utilizing Go channels for safe concurrency.",
+      "tags": ["Go", "WebSockets", "Redis", "HTMX"],
+      "githubUrl": "https://github.com/amaliebjorgen/go-chat",
+      "liveUrl": "https://chat-demo.example.com",
+      "featured": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oslo (UiO)",
+      "degree": "Master of Science in Informatics",
+      "field": "Software Engineering & Distributed Systems",
+      "startDate": "2019-08",
+      "endDate": "2021-06"
+    },
+    {
+      "institution": "Oslo Metropolitan University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Engineering",
+      "startDate": "2016-08",
+      "endDate": "2019-06"
+    }
+  ]
+}
